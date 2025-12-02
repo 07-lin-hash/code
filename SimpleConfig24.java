@@ -25,7 +25,7 @@ public class SimpleConfig24 {
             sample.setProperty("debug.mode", "true");
             sample.setProperty("log.level", "INFO");
             sample.store(writer, "自动生成的示例配置文件");
-            System.out.println("📝 已创建示例配置文件");
+            System.out.println(" 已创建示例配置文件");
             loadFromFile();
         } catch (IOException e) {
             System.out.println("创建示例文件失败: " + e.getMessage());
